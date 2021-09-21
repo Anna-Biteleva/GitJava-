@@ -13,7 +13,7 @@ public class HomeWork1App {
             else System.out.println("Сумма отрицательная");
             printColor();
             compareNumbers();
-            System.out.println(compareNum (2, 10));
+            printThreeWords1 ();
 
         }
 
@@ -23,7 +23,14 @@ public class HomeWork1App {
 
             System.out.println(fruit);
         }
-        // 3. Создайте метод checkSumSign(), в теле которого объявите две int переменные a и b, и инициализируйте их любыми значениями,
+
+    public static void printThreeWords1 ( ){
+        System.out.println ("Orange");
+        System.out.println ("Banana");
+        System.out.println ("Apple");}
+
+
+    // 3. Создайте метод checkSumSign(), в теле которого объявите две int переменные a и b, и инициализируйте их любыми значениями,
         // которыми захотите. Далее метод должен просуммировать эти переменные, и если их сумма больше или равна 0, то вывести в консоль
         // сообщение “Сумма положительная”, в противном случае "Сумма положительная"
 
